@@ -38,9 +38,9 @@ Die Dateien sollten für dich auf deinem Keymaster hinterlegt sein, lade dort di
             condition = function(healthBuffer, bodyPart) return not healthBuffer.bodybag end,
             action = function(clientData, healthBuffer, bodyPart, callback)
                 if not _isc3active then
-                    TriggerEvent('togglec3EKG', clientData.source, TempAuthToken, bodyPart, true, healthBuffer)
+                    TriggerEvent('rdrp:toggler3t', clientData.source, TempAuthToken, bodyPart, true, healthBuffer)
                 else
-                    TriggerEvent('togglec3EKG', clientData.source, TempAuthToken, bodyPart, false, healthBuffer)
+                    TriggerEvent('rdrp:toggler3t', clientData.source, TempAuthToken, bodyPart, false, healthBuffer)
                 end
                 callback(true)
             end
