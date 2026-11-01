@@ -3,17 +3,18 @@
 * [Willkommen](README.md)
 * [Über uns](uber-uns.md)
 
-## rdrp\_lib
-
-* [Installation](rdrp_lib/installation.md)
-* [PlugIn Installation](rdrp_lib/plugin-installation.md)
-* [Verwendung](rdrp_lib/verwendung.md)
-* [Developer](rdrp_lib/developer/README.md)
-  * [Exports](rdrp_lib/developer/exports.md)
-
 ## rdrp\_rueckwarnsystem
 
 * [Installation](rdrp_rueckwarnsystem/installation.md)
+
+## rdrp\_mhs
+
+* [Installation](rdrp_mhs/installation.md)
+* [Konfiguration](rdrp_mhs/konfiguration/README.md)
+  * [Medikamente](rdrp_mhs/konfiguration/medikamente.md)
+  * [Krankheiten](rdrp_mhs/konfiguration/krankheiten.md)
+* [Developer](rdrp_mhs/developer/README.md)
+  * [Exports](rdrp_mhs/developer/exports.md)
 
 ## rdrp\_navtrack
 
